@@ -1,0 +1,29 @@
+{
+  "name": "ParkourMechaniques",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Packages": {
+        "$path": "Packages"
+      }
+    },
+    "ServerScriptService": {
+      "server": {
+        "$path": "src/server"
+      },
+      "Services": {
+        "$path": "src/Services"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "client": {
+          "$path": "src/client"
+        },
+        "ControllersClients": {
+          "$path": "src/ControllersClients"
+        }
+      }
+    }
+  }
+}
