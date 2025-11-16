@@ -1,6 +1,8 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Knit = require(ReplicatedStorage.Packages.Knit)
 
-Knit.AddControllersDeep(ReplicatedStorage.Client.Controller)
+local Roll = Knit.CreateController({ Name = "Roll" })
 
-Knit.Start()
+function Roll:KnitStart() end
+
+return Roll

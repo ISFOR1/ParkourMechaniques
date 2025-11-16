@@ -5,6 +5,10 @@
     "ReplicatedStorage": {
       "Packages": {
         "$path": "Packages"
+      },
+
+      "Client" : {
+        "$path": "src/ControllersClients"
       }
     },
     "ServerScriptService": {
@@ -19,9 +23,6 @@
       "StarterPlayerScripts": {
         "client": {
           "$path": "src/client"
-        },
-        "ControllersClients": {
-          "$path": "src/ControllersClients"
         }
       }
     }
